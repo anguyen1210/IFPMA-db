@@ -1,0 +1,33 @@
+#Reading the HTML code from the website
+
+url <- "http://partnerships.ifpma.org/partnerships/by-letter/all"
+
+page <- read_html(url)
+
+#Using CSS selectors to create list of URLs
+dir_urls <- html_nodes(page,"#results-list a") %>%
+  html_attr("href") %>%
+  url_absolute(url)
+
+#Now create a list of the program names
+row_titles_all <- html_nodes(page,".row-title") %>%
+  html_text()
+
+#The first 8 programs are not company-led initiatives, so let's filter those out.  I also happen to know that the WIPO RE:Search project page isn't loading correctly, so let's take that one out as well.
+
+program_urls <- dir_urls[c(9:421, 423:425)]
+program_name <- program_names_all[c(9:421, 423:425)]
+
+#And to clean up the program names:
+program_name <- str_trim(program_name, side = "both")
+
+#Now, we can create a table to store all of the scraped text using the `program_name` entries for the different rows. We'll also need another column to store out program descriptions, as well as a column to store our side bar text.
+
+xx <- (1:10)
+yy <- (1:10)
+xxyyzz <- tibble(xx, yy)
+
+zz <- (1:10)
+xxyyzz$zz <- zz
+
+xxx<- str_c(alltext$row_titles_all, "; ")

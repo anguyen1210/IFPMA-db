@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522394716565.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "889147630",
+    "id" : "27E1C45A",
+    "lastKnownWriteTime" : 1522659236,
+    "last_content_update" : 1522659236078,
+    "path" : "C:/Users/Anthony/SkyDrive/Documents/R/IFPMA/scrape_partnership_dir.Rmd",
+    "project_path" : "scrape_partnership_dir.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "200,8",
+        "scrollLine" : "173"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

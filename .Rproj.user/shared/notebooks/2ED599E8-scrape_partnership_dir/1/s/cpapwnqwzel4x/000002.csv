@@ -1,0 +1,4 @@
+"0","alltext4$URL <- dir_urls"
+"2","Error in `$<-.data.frame`(`*tmp*`, URL, value = c(""http://partnerships.ifpma.org/partnership/focus-on-cancer"",  : 
+  replacement has 425 rows, data has 416
+"

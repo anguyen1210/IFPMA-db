@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"extract_category(alltext3$program_desc, OBJECTIVES)","line_number":0}],"message":"Error in str_match(string = searchColumn[i], pattern = searchPattern) : \n  could not find function \"str_match\"\n"}

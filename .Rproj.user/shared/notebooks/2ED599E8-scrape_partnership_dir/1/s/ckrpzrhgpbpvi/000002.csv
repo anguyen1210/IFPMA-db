@@ -1,5 +1,0 @@
-"0","alltext3$objectives <- extract_category(alltext3$program_desc, OBJECTIVES)
-"
-"2","Error in str_match(string = searchColumn[i], pattern = searchPattern) : 
-  could not find function ""str_match""
-"

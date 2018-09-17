@@ -83,7 +83,7 @@ col_extract <- function(col_selector){
 
 #Create a table to store all of the scraped text using the `prog_name` entries for the different rows.
 
-alltext <- data.frame(prog_name)
+alltext <- data.frame(prog_name, stringsAsFactors = FALSE)
 
 #Extract all the columns we're interested in and then bind them together
 
